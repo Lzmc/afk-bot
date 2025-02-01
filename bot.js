@@ -2,9 +2,9 @@ const mineflayer = require('mineflayer');
 const keep_alive = require('./keep_alive.js')
 
 const config = {
-  host: process.env.HOST,
-  port: parseInt(process.env.PORT, 10),
-  username: process.env.NAME,
+  host: process.env.MCHOST,
+  port: parseInt(process.env.MCPORT, 10),
+  username: process.env.MCNAME,
   version: '1.21.1',
   reconnectDelay: 5000
 };
